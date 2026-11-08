@@ -1,0 +1,34 @@
+# GameMaker build artifacts
+*.exe
+*.zip
+*. installer
+*.nlext
+/builds/
+/options/linux/
+/options/mac/
+~
+
+# GameMaker IDE cache & temp
+*.tmp
+*.bak
+*.cache
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# GameMaker local state (do not commit)
+*.local
+*.user
+
+# Editor/IDE artifacts
+.vs/
+.vscode/
+*.code-workspace
+
+# Do NOT exclude source assets, sprites, sounds, scripts, rooms, objects, sequences, shaders, fonts, tilesets
+# Do NOT exclude the .yyp project file or .yy resource files
+
+# Igor Run target output (never commit)
+output/
